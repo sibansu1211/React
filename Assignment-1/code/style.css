@@ -1,1 +1,72 @@
+.blue{
+    display: flex;
+    width: 100vw;
+    height: 34%;
+}
+.color-blue{
+    width: 33vw;
+    height: 33vh;
+    background-color: blue;
+    margin: 10px;
+}
+.red{
+    display: flex;
+    width: 100vw;
+    height:34%;
+}
+.color-red{
+    width: 100vw;
+    height: 33vh;
+    background-color: red;
+    margin: 10px;
+}
+.yellow{
+    width: 100vw;
+    display: flex;
+    height: 34%;
+}
+.color-yellow{
+    width: 50vw;
+    height: 33vh;
+    background-color: yellow;
+    margin: 10px;
+}
+
+@media screen and (min-width:321px) and 
+(max-width:768px) {
+    .blue{
+        display: flex;
+        flex-direction: column;
+    } 
+    .color-blue{
+        width: 98vw;
+        height: 15vh;
+        background-color: blue;
+        margin: 10px;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .blue{
+        display: flex;
+        flex-direction: column;
+    } 
+    .color-blue{
+        width: 93vw;
+        height: 17vh;
+        background-color: blue;
+        margin: 10px;
+    }
+    .yellow{
+        display: flex;
+        flex-direction: column;
+    }
+    .color-yellow{
+        width: 93vw;
+        height: 17vh;
+        background-color:yellow;
+        margin: 10px;
+    }
+}   
+    
 
